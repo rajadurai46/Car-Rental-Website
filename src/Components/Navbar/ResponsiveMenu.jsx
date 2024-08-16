@@ -3,27 +3,23 @@ import { FaUserCircle } from 'react-icons/fa'
 
 export const NavLinks = [
   {
-    id: "1",
     name: "HOME",
-    link: "/hero",
+    link: "#home",
   },
 
   {
-    id: "2",
     name: "CARS",
-    link: "/carlist",
+    link: "#carlist",
   },
 
   {
-    id: "3",
     name: "ABOUT",
-    link: "/about",
+    link: "#about",
   },
 
   {
-    id: "4",
     name: "BOOKING",
-    link: "/contact",
+    link: "#contact",
   },
 
 ]
@@ -47,7 +43,8 @@ const ResponsiveMenu = ({showmenu}) => {
           {
             NavLinks.map((data) => (
               <li>
-                <a href={data.link}>{data.name}</a>
+                <a className='hover:border-b-2 hover:text-primary hover:border-primary transition-colors duration-500' 
+                href={data.link}>{data.name}</a>
               </li>
             ))
           }

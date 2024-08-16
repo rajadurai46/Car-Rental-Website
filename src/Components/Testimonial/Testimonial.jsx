@@ -28,7 +28,7 @@ const TestimonialData = [
 
 const Testimonial = () => {
   return (
-    <div className='bg-white dark:bg-black dark:text-white py-14 sm:pb-24'>
+    <div className='bg-white dark:bg-black dark:text-white pt-32 pb-24 sm:pb-24' id='reviews'>
         <div className='container'>
           <div className='space-y-4 pb-12'>
             <p data-aos='fade-up' className='text-3xl font-semibold text-center sm:text-4xl font-serif'>

@@ -39,7 +39,7 @@ const skillsData = [
 const Services = () => {
   return (
     <div className='py-14 shadow-md bg-white dark:bg-black dark:text-white 
-    sm:min-h-[720px] sm:grid sm:place-items-center'>
+    sm:min-h-[720px] sm:grid sm:place-items-center' id='services'>
         <div className="container">
             <div className='pb-12'>
                 <h1 className='text-3xl font-semibold text-center font-serif sm:text-4xl'>

@@ -14,7 +14,7 @@ const bannerImg = {
 }
 const Appstore = () => {
   return (
-    <div className='bg-slate-100 dark:bg-dark dark:text-white pb-14 pt-14'>
+    <div className='bg-slate-100 dark:bg-dark dark:text-white pb-14 pt-14' id='app'>
      <div className='container text-black py-10 sm:min-h-[400px] sm:grid 
      sm:place-items-center rounded-3xl' style={bannerImg}>
         <div>

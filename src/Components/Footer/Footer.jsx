@@ -12,18 +12,18 @@ const Footerlinks = [
     },
 
     {
-        title: "About",
-        link: "/#",
+        title: "Services",
+        link: "#services",
     },
 
     {
-        title: "Contact",
-        link: "/#",
+        title: "Reviews",
+        link: "#reviews",
     },
 
     {
-        title: "Booking",
-        link: "/#",
+        title: "Application",
+        link: "#app",
     },
 ]
 
@@ -63,8 +63,8 @@ const Footer = () => {
               <div className='grid grid-cols-1 sm:text-center text-center col-span-2 md:pl-10'>
                <div>
                 <div className='py-8 px-4'>
-                    <h1 className='text-xl font-bold sm:text-center text-center mb-3 mr-80'>Links</h1>
-                    <ul className=' flex gap-16'>
+                    <h1 className='text-xl font-bold mb-3 sm:ml-[-400px]'>Links</h1>
+                    <ul className='flex gap-10'>
                       {
                         Footerlinks.map((data) => (
                         <li key={data.title} className='cursor-pointer hover:text-primary duration-300'>

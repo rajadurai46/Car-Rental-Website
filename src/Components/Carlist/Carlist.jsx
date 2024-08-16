@@ -6,28 +6,28 @@ import car4 from '../../assets/car4.png'
 const CarListdata = [
     {
         name: "BMW GT",
-        price: 25000,
+        price: 9000,
         image: car2,
         aosDelay: "0",
     },
 
     {
         name: "SCORPIO",
-        price: 9000,
+        price: 4000,
         image: car3,
         aosDelay: "500",
     },
 
     {
         name: "BOLERO",
-        price: 8500,
+        price: 3500,
         image: car4,
         aosDelay: "1000",
     },
 ]
 const Carlist = () => {
   return (
-    <div className='pb-24 pt-12 bg-slate-100 dark:bg-dark dark:text-white '>
+    <div className='pb-24 pt-28 bg-slate-100 dark:bg-dark dark:text-white scroll-m-2' id='carlist'>
         <div className="container">
          <h1 className='text-3xl sm:text-4xl font-semibold font-serif mb-3'>
             Your Favourite Cars

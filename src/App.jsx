@@ -1,4 +1,4 @@
-import { useEffect, useRef} from 'react'
+import { useEffect} from 'react'
 import React from 'react'
 import './App.css'
 import Navbar from './Components/Navbar/Navbar'
@@ -17,7 +17,6 @@ import "aos/dist/aos.css";
 
 
 function App() {
- 
  
 
   //Dark Mode Feature
@@ -54,7 +53,7 @@ AOS.refresh()
   return (
 
     <>
-
+   
       <Navbar theme={theme} setTheme={setTheme}/> 
       <Hero theme={theme}/>
       <About/>
@@ -64,7 +63,7 @@ AOS.refresh()
       <Appstore/>
       <Contact/>
       <Footer/>
-        
+
        
     </>
    
